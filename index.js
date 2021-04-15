@@ -1,8 +1,12 @@
 const express = require('express')
 const app = express()
 const bp = require('body-parser')
-app.use(bp.json())
+
 app.use(bp.urlencoded({ extended: true }))
+
+
+app.use(bp.json())
+
 const service = require('./src/services')
 
 const router = express.Router()
