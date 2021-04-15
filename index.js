@@ -21,6 +21,6 @@ app.use('/', router)
 const porta = process.env.PORT;
 console.log(porta)
 
-app.listen(porta || 8081, () => {
-    console.log('Server started on port 8081')
+app.listen(porta || 8082, () => {
+    console.log('Server started on port 8082')
 })
