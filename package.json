@@ -1,0 +1,23 @@
+{
+  "name": "prova_topicos_avancados",
+  "version": "1.0.0",
+  "description": "Prova",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielRicieri/Prova_topicos_avancados.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielRicieri/Prova_topicos_avancados/issues"
+  },
+  "homepage": "https://github.com/GabrielRicieri/Prova_topicos_avancados#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
